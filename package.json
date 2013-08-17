@@ -1,6 +1,6 @@
 {
   "name": "carbon-streams",
-  "version": "0.0.0",
+  "version": "0.9.0",
   "description": "Framework for intercepting and modifying Carbon (Graphite) metrics",
   "main": "index.js",
   "scripts": {

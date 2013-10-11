@@ -4,7 +4,7 @@
   "description": "Framework for intercepting and modifying Carbon (Graphite) metrics",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "grunt test"
   },
   "repository": {
     "type": "git",
@@ -27,8 +27,11 @@
   },
   "devDependencies": {
     "chai": "1.7.2",
-    "jshint": "2.1.4",
-    "mocha": "1.12.0",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
     "sinon": "1.7.3"
   }
 }
